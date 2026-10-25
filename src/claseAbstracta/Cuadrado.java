@@ -1,6 +1,6 @@
 package claseAbstracta;
 
-public class Cuadrado implements Figura{
+public class Cuadrado implements Figura, Dibujable{
 
     private double lado;
 
@@ -23,4 +23,10 @@ public class Cuadrado implements Figura{
         double resultado = lado * lado;
         return resultado;
     }
+
+    @Override
+    public double dibujar() {
+        System.out.println("Dibujando cuadrado");
+    }
+
 }
