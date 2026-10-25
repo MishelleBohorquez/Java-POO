@@ -1,5 +1,9 @@
 package claseAbstracta;
 
+public interface class Figura {
+
+    /*
+
 public abstract class Figura {
 
     protected double x;
@@ -14,5 +18,9 @@ public abstract class Figura {
     }
 
     public abstract double calcularArea();
+
+     */
+
+    public double calcularArea();
 
 }
