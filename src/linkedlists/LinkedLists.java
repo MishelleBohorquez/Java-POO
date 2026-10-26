@@ -58,7 +58,7 @@ public class LinkedLists {
         listaArray.clear();
         listaLinked.clear();
 
-        System.out.println("------------------- Lista Vacía -------------------");
+        System.out.println("------------------ Listas Vacías ------------------");
         System.out.println("Array: " + listaArray.isEmpty());
         System.out.println("Linked: " + listaLinked.isEmpty());
 
