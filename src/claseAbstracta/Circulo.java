@@ -25,12 +25,12 @@ public class Circulo implements Figura, Dibujable, Rotable{
     }
 
     @Override
-    public double dibujar() {
+    public void dibujar() {
         System.out.println("Dibujando círculo");
     }
 
     @Override
-    public double rotar() {
+    public void rotar() {
         System.out.println("Rotando círculo");
     }
 

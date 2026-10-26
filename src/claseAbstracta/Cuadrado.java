@@ -25,7 +25,7 @@ public class Cuadrado implements Figura, Dibujable{
     }
 
     @Override
-    public double dibujar() {
+    public void dibujar() {
         System.out.println("Dibujando cuadrado");
     }
 

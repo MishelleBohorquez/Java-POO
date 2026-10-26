@@ -2,25 +2,25 @@ package arraylists;
 
 public class Persona {
 
-    private int num;
+    private int numero;
     private String nombre;
     private int edad;
 
     public Persona() {
     }
 
-    public Persona(int num, String nombre, int edad) {
-        this.num = num;
+    public Persona(int numero, String nombre, int edad) {
+        this.numero = numero;
         this.nombre = nombre;
         this.edad = edad;
     }
 
-    public int getNum() {
-        return num;
+    public int getnumero() {
+        return numero;
     }
 
-    public void setNum(int num) {
-        this.num = num;
+    public void setnumero(int numero) {
+        this.numero = numero;
     }
 
     public String getNombre() {

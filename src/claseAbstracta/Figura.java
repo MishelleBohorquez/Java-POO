@@ -1,6 +1,6 @@
 package claseAbstracta;
 
-public interface class Figura {
+public interface Figura {
 
     /*
 
