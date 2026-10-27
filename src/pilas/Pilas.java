@@ -24,6 +24,7 @@ public class Pilas {
 
         //Mostrar
         System.out.println("Pila: " + pila);
+        System.out.println("¿Esta vacía?: " + pila.isEmpty());
 
     }
 }
