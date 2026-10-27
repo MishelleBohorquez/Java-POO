@@ -7,8 +7,8 @@ public class Pilas {
 
         Stack<Integer> pila = new Stack<Integer>();
 
-        System.out.println("Lista vacía: " + pila);
-        System.out.println("¿Esta vacía?: " + pila);
+        System.out.println("Pila vacía: " + pila);
+        System.out.println("¿Esta vacía?: " + pila.isEmpty());
 
         //Agregar
         pila.push(1);
@@ -18,7 +18,12 @@ public class Pilas {
         pila.push(5);
 
         //Recorrido
-        for(Integer pila1)
+        for(Integer pilita: pila){
+            System.out.println(pilita);
+        }
+
+        //Mostrar
+        System.out.println("Pila: " + pila);
 
     }
 }
