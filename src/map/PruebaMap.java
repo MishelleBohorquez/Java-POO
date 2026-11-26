@@ -9,8 +9,8 @@ public class PruebaMap {
 
         Map<Integer, String> mapaEmpleados = new HashMap<>();
 
-        mapaEmpleados.put(1523, "Mishelle");
-        mapaEmpleados.put(1524, "Dayan");
+        mapaEmpleados.put(1523, "Dayan");
+        mapaEmpleados.put(1524, "Mishelle");
         mapaEmpleados.put(1525, "Bohorquez");
         mapaEmpleados.put(1526, "Rojas");
 
@@ -30,6 +30,14 @@ public class PruebaMap {
             System.out.println("Falso");
         }
 
+        System.out.println(mapaEmpleados.values());
+        System.out.println(mapaEmpleados.keySet());
+
+        String nombre = mapaEmpleados.get(1524);
+        System.out.println("Nombre empleado (ID): " + nombre);
+
+        mapaEmpleados.remove(1526);
+        System.out.println(mapaEmpleados.values());
 
     }
 
